@@ -4,18 +4,15 @@
 
 ## 系统概览
 
-![系统界面](docs/screenshot.png)
+![系统界面](docs/homepage-real.png)
 
 ## 功能截图
 
 ### AI 对话
-![AI对话](docs/chat-interface.png)
+![AI对话](docs/chat-real.png)
 
 ### 电商运营
-![电商运营](docs/ecommerce-dashboard.png)
-
-### 定时任务
-![定时任务](docs/schedule-manager.png)
+![电商运营](docs/ecommerce-real.png)
 
 ## 功能模块
 
@@ -38,13 +35,13 @@
 ```
 ┌─────────────────────────────────────────────────────────┐
 │                    前端 (Vue3)                          │
-│  ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐        │
-│  │  Chat   │ │Dashboard │ │ Ecommerce│ │ Schedule │        │
-│  └─────────┘ └─────────┘ └─────────┘ └─────────┘        │
+│  ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐      │
+│  │  Chat   │ │Dashboard │ │ Ecommerce│ │ Schedule │      │
+│  └─────────┘ └─────────┘ └─────────┘ └─────────┘      │
 └───────────────────────┬─────────────────────────────────┘
                         │ HTTP/WebSocket
 ┌───────────────────────┴─────────────────────────────────┐
-│               OpenClaw Gateway (Node.js)                  │
+│               OpenClaw Gateway (Node.js)               │
 │  ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐        │
 │  │  Tools  │ │  Cron   │ │ Memory  │ │ Skills  │        │
 │  └─────────┘ └─────────┘ └─────────┘ └─────────┘        │
@@ -64,7 +61,7 @@ lebaic/
 │       │   └── ScheduleManager.vue  # 定时任务
 │       ├── services/           # API 服务
 │       └── router/             # 路由配置
-└── docs/                       # 截图文档
+└── docs/                      # 截图文档
 ```
 
 ## 快速开始
